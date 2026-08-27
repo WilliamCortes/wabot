@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { MessageCircle, Mail } from 'lucide-react';
 
 const Footer = () => {
@@ -28,17 +29,18 @@ const Footer = () => {
           <div>
             <h4 className="font-display font-semibold text-lg mb-6">Producto</h4>
             <ul className="space-y-3 text-white/70 text-sm">
-              <li><a href="#features" className="hover:text-whatsapp-light transition-colors">Características</a></li>
-              <li><a href="#how-it-works" className="hover:text-whatsapp-light transition-colors">Cómo funciona</a></li>
-              <li><a href="#pricing" className="hover:text-whatsapp-light transition-colors">Planes</a></li>
-              <li><a href="#faq" className="hover:text-whatsapp-light transition-colors">Preguntas frecuentes</a></li>
+              <li><Link href="/#features" className="hover:text-whatsapp-light transition-colors">Características</Link></li>
+              <li><Link href="/#how-it-works" className="hover:text-whatsapp-light transition-colors">Cómo funciona</Link></li>
+              <li><Link href="/#pricing" className="hover:text-whatsapp-light transition-colors">Planes</Link></li>
+              <li><Link href="/#faq" className="hover:text-whatsapp-light transition-colors">Preguntas frecuentes</Link></li>
+              <li><Link href="/blog" className="hover:text-whatsapp-light transition-colors">Blog</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-display font-semibold text-lg mb-6">Legal</h4>
             <ul className="space-y-3 text-white/70 text-sm">
-              <li><a href="/politica-privacidad" className="hover:text-whatsapp-light transition-colors">Política de privacidad</a></li>
+              <li><Link href="/politica-privacidad" className="hover:text-whatsapp-light transition-colors">Política de privacidad</Link></li>
               <li><a href="mailto:soporte@wabot365.com" className="hover:text-whatsapp-light transition-colors">Contacto</a></li>
             </ul>
           </div>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Fraunces, IBM_Plex_Mono } from "next/font/google";
+import { WhatsAppFAB } from "@/components/ui/WhatsAppFAB";
 import "./globals.css";
 
 const inter = Inter({
@@ -72,6 +73,7 @@ const organizationJsonLd = {
   "@type": "Organization",
   name: "Wabot365",
   url: siteUrl,
+  logo: `${siteUrl}/wabot-avatar.png`,
   email: "soporte@wabot365.com",
   description:
     "Wabot365 diseña e implementa chatbots de WhatsApp para microempresas en Colombia: atención al cliente, pedidos y agendamiento de citas.",
@@ -79,6 +81,15 @@ const organizationJsonLd = {
     "@type": "Country",
     name: "Colombia",
   },
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      telephone: "+57-310-329-8346",
+      areaServed: "CO",
+      availableLanguage: ["Spanish"],
+    },
+  ],
 };
 
 const softwareJsonLd = {
@@ -118,6 +129,7 @@ export default function RootLayout({
         className={`${inter.variable} ${fraunces.variable} ${plexMono.variable} antialiased`}
       >
         {children}
+        <WhatsAppFAB phone="573103298346" message="Hola, quiero información sobre Wabot365" />
       </body>
     </html>
   );
