@@ -1149,7 +1149,7 @@ export const posts: BlogPost[] = [
           },
           {
             q: '¿El catálogo de WhatsApp reemplaza tener una tienda en línea propia?',
-            a: 'Para muchos negocios pequeños, sí es suficiente como vitrina principal. Para negocios con catálogos muy amplios o procesos de pago complejos, suele funcionar mejor como complemento de una tienda en línea, no como reemplazo total.',
+            a: 'Para muchos negocios pequeños, sí es suficiente como vitrina principal. Para negocios con catálogos muy amplios o procesos de pago complejos, suele funcionar mejor como complemento de una tienda en línea o landing page propia (como las que hace Vendo365), no como reemplazo total.',
           },
         ],
       },

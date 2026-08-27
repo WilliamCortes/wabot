@@ -38,8 +38,18 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-display font-semibold text-lg mb-6">Legal</h4>
+            <h4 className="font-display font-semibold text-lg mb-6">Enlaces</h4>
             <ul className="space-y-3 text-white/70 text-sm">
+              <li>
+                <a
+                  href="https://www.vendo365.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-whatsapp-light transition-colors"
+                >
+                  Vendo365 — landings y tiendas online
+                </a>
+              </li>
               <li><Link href="/politica-privacidad" className="hover:text-whatsapp-light transition-colors">Política de privacidad</Link></li>
               <li><a href="mailto:soporte@wabot365.com" className="hover:text-whatsapp-light transition-colors">Contacto</a></li>
             </ul>

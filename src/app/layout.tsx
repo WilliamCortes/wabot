@@ -91,6 +91,7 @@ const organizationJsonLd = {
       availableLanguage: ["Spanish"],
     },
   ],
+  sameAs: ["https://www.vendo365.com"],
 };
 
 const softwareJsonLd = {
