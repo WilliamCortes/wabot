@@ -32,6 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: post.description,
       publishedTime: post.publishedAt,
       url: `${siteUrl}/blog/${post.slug}`,
+      images: [`${siteUrl}/blog/${post.slug}/opengraph-image`],
     },
   };
 }
@@ -49,6 +50,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     '@type': 'Article',
     headline: post.title,
     description: post.description,
+    image: [`${siteUrl}/blog/${post.slug}/opengraph-image`],
     datePublished: post.publishedAt,
     dateModified: post.updatedAt ?? post.publishedAt,
     author: { '@type': 'Organization', name: 'Wabot365', url: siteUrl },
@@ -57,7 +59,24 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       name: 'Wabot365',
       logo: { '@type': 'ImageObject', url: `${siteUrl}/wabot-avatar.png` },
     },
+    keywords: post.keywords.join(', '),
     mainEntityOfPage: `${siteUrl}/blog/${post.slug}`,
+  };
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Inicio', item: siteUrl },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${siteUrl}/blog` },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: CLUSTER_LABELS[post.cluster],
+        item: `${siteUrl}/blog/categoria/${post.cluster}`,
+      },
+      { '@type': 'ListItem', position: 4, name: post.title, item: `${siteUrl}/blog/${post.slug}` },
+    ],
   };
 
   const faqJsonLd =
@@ -76,15 +95,22 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   return (
     <div className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       {faqJsonLd && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       )}
       <Header />
       <main className="pt-36 pb-24 bg-paper">
         <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link href="/blog" className="text-whatsapp-deep font-medium text-sm mb-6 inline-block">
-            ← Volver al blog
-          </Link>
+          <nav aria-label="Breadcrumb" className="text-sm text-ink-soft mb-6 flex flex-wrap items-center gap-1.5">
+            <Link href="/" className="hover:text-whatsapp-deep transition-colors">Inicio</Link>
+            <span aria-hidden="true">/</span>
+            <Link href="/blog" className="hover:text-whatsapp-deep transition-colors">Blog</Link>
+            <span aria-hidden="true">/</span>
+            <Link href={`/blog/categoria/${post.cluster}`} className="hover:text-whatsapp-deep transition-colors">
+              {CLUSTER_LABELS[post.cluster]}
+            </Link>
+          </nav>
 
           <span className="text-whatsapp-deep font-semibold tracking-wide uppercase text-sm mb-3 block">
             {CLUSTER_LABELS[post.cluster]}

@@ -144,6 +144,19 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'Un chatbot no reemplaza la atención humana: cierra la brecha entre cuándo escribe el cliente y cuándo puede responder tu equipo.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Estas cifras aplican también a negocios pequeños o solo a grandes marcas?',
+            a: 'Los reportes agregan datos de negocios de todos los tamaños. La tasa de apertura del 98,2% o la expectativa de respuesta en 24 horas no distinguen entre una multinacional y una tienda de barrio: son expectativas del consumidor sobre el canal, no sobre el tamaño de quien lo usa.',
+          },
+          {
+            q: '¿Dónde puedo consultar directamente estos datos?',
+            a: 'El reporte "The State of Business Messaging" está disponible públicamente en el sitio de recursos de WhatsApp Business, y se actualiza de forma periódica con nuevas cifras de adopción y comportamiento del consumidor.',
+          },
+        ],
+      },
     ],
     sources: [
       {
@@ -207,6 +220,19 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'La pregunta correcta no es "IA o humano", sino "qué parte de la conversación le corresponde a cada uno". Las preguntas frecuentes, los horarios y los pedidos estándar: al bot. Las quejas, las negociaciones y los casos raros: a tu equipo.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Automatizar la atención implica reducir personal?',
+            a: 'En la mayoría de los casos documentados, no. Los reportes muestran que la IA absorbe entre el 11% y el 30% del volumen de soporte, liberando al equipo humano para casos que sí requieren su criterio, no reemplazándolo por completo.',
+          },
+          {
+            q: '¿Cómo sé si mi negocio ya está listo para dar este paso?',
+            a: 'Una señal clara es que tu equipo dedica buena parte del día a responder las mismas preguntas (horarios, precios, disponibilidad). Si eso ocurre, automatizar esas respuestas específicas suele ser el primer paso, antes de pensar en un sistema más complejo.',
+          },
+        ],
       },
     ],
     sources: [
@@ -275,6 +301,19 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'El objetivo no es que el cliente sienta que "le tocó un robot", sino que sienta que le respondieron rápido. Un buen flujo de pedidos se nota en que nadie se da cuenta de que fue automático hasta que lo piensa.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿El chatbot puede integrarse con el sistema de domicilios que ya uso?',
+            a: 'Depende del proveedor y del sistema, pero la mayoría de plataformas de chatbot para restaurantes permiten enviar el pedido confirmado directamente a un sistema de punto de venta o a una app de domicilios ya existente, evitando doble digitación.',
+          },
+          {
+            q: '¿Qué pasa si el bot toma mal un pedido?',
+            a: 'Por eso el bot siempre debe confirmar el pedido completo antes de darlo por cerrado ("Confirmas: 2 combos 1, para recoger, ¿correcto?"). Ese paso de confirmación reduce casi por completo los errores de digitación.',
+          },
+        ],
+      },
     ],
     sources: [
       {
@@ -333,6 +372,10 @@ export const posts: BlogPost[] = [
             q: '¿Es más barato un chatbot que una línea telefónica?',
             a: 'Sí. Un chatbot de WhatsApp bien configurado tiene un costo fijo mensual mucho menor que mantener personal dedicado a contestar llamadas, y puede atender múltiples conversaciones al mismo tiempo sin costo adicional por cada una.',
           },
+          {
+            q: '¿Qué pasa con los clientes que prefieren llamar?',
+            a: 'Nada les impide seguir haciéndolo: automatizar WhatsApp no elimina la línea telefónica, la libera. Al resolver por chat las consultas repetitivas, quien llama encuentra una línea menos saturada y una respuesta más rápida.',
+          },
         ],
       },
     ],
@@ -388,6 +431,19 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'En un mercado donde 9 de cada 10 personas conectadas usa WhatsApp todos los meses, no automatizar ese canal no es "quedarse igual": es quedarse atrás frente a quien sí lo hizo.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Por qué WhatsApp domina tanto en Colombia frente a otros países?',
+            a: 'Colombia tiene un consumo de datos móviles alto en relación con otros canales, y WhatsApp llegó temprano como la forma principal de comunicación personal. Esa costumbre se trasladó de forma natural a la relación con negocios y marcas.',
+          },
+          {
+            q: '¿Los negocios pequeños en Colombia realmente necesitan automatizar, o solo las grandes marcas?',
+            a: 'Las cifras del NubeCommerce Colombia muestran que el 84,1% de las tiendas en línea, la mayoría pequeñas y medianas, ya usa WhatsApp como canal de venta. Automatizarlo no es una decisión de las grandes marcas: es donde se juega la competencia local.',
+          },
+        ],
       },
     ],
     sources: [
@@ -453,6 +509,19 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'La regla de oro: si el cliente ya te escribió hoy, aprovecha esa ventana para resolver, confirmar y cerrar. Lo que quede pendiente para después de 24 horas es lo único que realmente necesita una plantilla pagada.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Qué pasa si respondo después de que se cierra la ventana de 24 horas?',
+            a: 'El mensaje no se entrega si se envía como texto libre. El sistema exige que ese mensaje se envíe como una plantilla pre-aprobada por Meta, la cual sí tiene un costo asociado según su categoría.',
+          },
+          {
+            q: '¿La ventana se reinicia cada vez que el cliente escribe?',
+            a: 'Sí. Cada mensaje nuevo del cliente reabre una ventana completa de 24 horas de mensajería libre, sin importar cuántas veces haya ocurrido esto antes en la misma conversación.',
+          },
+        ],
+      },
     ],
     sources: [
       {
@@ -510,6 +579,19 @@ export const posts: BlogPost[] = [
         type: 'p',
         text: 'Meta también permite operar con un perfil de negocio no verificado a nivel legal, pero con límites más bajos de mensajería y menor confianza de marca frente al cliente. Para un negocio que ya está creciendo o piensa automatizar en serio, verificar es la inversión de tiempo que despeja ese techo.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cuánto tiempo toma la verificación de Meta Business Manager?',
+            a: 'Puede tardar desde minutos hasta un par de días hábiles, dependiendo del volumen de solicitudes que esté procesando Meta y de si los datos ingresados coinciden exactamente con el registro legal del negocio.',
+          },
+          {
+            q: '¿Puedo verificar más de un negocio en la misma cuenta de Meta Business Manager?',
+            a: 'Sí, una misma cuenta puede administrar varios negocios verificados, cada uno con su propio número de WhatsApp, siempre que cada uno cumpla el proceso de verificación de forma independiente.',
+          },
+        ],
+      },
     ],
     sources: [
       {
@@ -559,6 +641,19 @@ export const posts: BlogPost[] = [
       {
         type: 'p',
         text: 'Si Meta reclasifica una plantilla de forma automática porque detecta que no cumple su categoría declarada, es posible solicitar una revisión manual desde WhatsApp Manager, en la sección de plantillas de mensaje, seleccionando "Actualización de categoría de plantilla".',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cuánto tiempo tarda Meta en aprobar una plantilla?',
+            a: 'La mayoría de plantillas se revisan en minutos u horas, aunque en casos que requieren revisión manual adicional el proceso puede extenderse a uno o dos días.',
+          },
+          {
+            q: '¿Puedo editar una plantilla ya aprobada?',
+            a: 'No directamente: cualquier cambio en el texto de una plantilla aprobada requiere crear una nueva versión y someterla nuevamente a revisión, ya que Meta evalúa el contenido exacto que fue aprobado.',
+          },
+        ],
       },
     ],
     sources: [
@@ -615,6 +710,19 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'La mejor protección contra un bloqueo no es técnica, es de diseño: si el cliente siente que le escribiste porque él lo pidió, casi nunca reporta el número.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cómo reviso la calificación de calidad de mi número?',
+            a: 'Desde WhatsApp Manager, en la pestaña de números de teléfono asociados a tu cuenta. Ahí se muestra el color actual (verde, amarillo o rojo) y el límite de mensajería vigente para ese número.',
+          },
+          {
+            q: '¿Un número suspendido se puede recuperar?',
+            a: 'En algunos casos sí, mediante una solicitud de apelación a Meta explicando las correcciones hechas. Pero si la suspensión es por violaciones repetidas o graves de política, la recuperación no está garantizada.',
+          },
+        ],
+      },
     ],
     sources: [
       {
@@ -637,7 +745,7 @@ export const posts: BlogPost[] = [
       'Comparamos, con datos de la industria, la efectividad real de WhatsApp frente al email marketing y los mensajes directos de Instagram para llegar a un cliente.',
     cluster: 'datos',
     publishedAt: '2026-08-26',
-    keywords: ['tasa de apertura whatsapp', 'whatsapp vs email marketing', 'whatsapp vs instagram'],
+    keywords: ['tasa de apertura whatsapp', 'whatsapp vs email marketing', 'engagement whatsapp'],
     coverVariant: 5,
     coverEyebrow: 'Datos y estadísticas',
     readingTime: '4 min',
@@ -666,6 +774,23 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'La estrategia que mejor funciona no es "WhatsApp o Instagram": es usar Instagram para que te descubran y WhatsApp para que te compren.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Por qué el correo tiene una tasa de apertura tan baja en comparación?',
+            a: 'El correo depende de que el usuario decida abrir la bandeja de entrada y elija ese mensaje entre docenas de otros, muchas veces marcados como promocional. WhatsApp llega directo a una app que la persona revisa de forma casi constante durante el día.',
+          },
+          {
+            q: '¿Debería dejar de usar el correo por completo?',
+            a: 'No necesariamente. El correo sigue siendo útil para contenido extenso (facturas, políticas, boletines). La recomendación es usar WhatsApp para lo urgente y transaccional, y el correo para lo informativo y de largo formato.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Vale la pena notar que una tasa de apertura alta no sirve de nada si lo que se envía no aporta valor: WhatsApp castiga el spam con bloqueos y reportes mucho más rápido de lo que el correo lo hace con una simple cancelación de suscripción. La misma característica que hace a WhatsApp tan efectivo —la cercanía— también lo hace más sensible a un mal uso.',
       },
     ],
     sources: [
@@ -711,6 +836,23 @@ export const posts: BlogPost[] = [
         type: 'p',
         text: 'Una empresa grande puede absorber algunos clientes insatisfechos sin notarlo. Un negocio pequeño, no: cada cliente que se va en silencio por una respuesta tardía es un porcentaje real de sus ingresos del mes. La buena noticia es que la solución no requiere contratar más personal, sino automatizar las respuestas que hoy toman más tiempo del que deberían.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cómo puedo medir cuánto me está costando responder lento?',
+            a: 'Un ejercicio simple: durante una semana, anota cuántos mensajes de WhatsApp recibió tu negocio y cuántos se respondieron en menos de una hora. La diferencia es una estimación directa de clientes potencialmente perdidos por demora.',
+          },
+          {
+            q: '¿Un tiempo de respuesta rápido garantiza la venta?',
+            a: 'No la garantiza, pero es una condición necesaria: un cliente no puede comprar si no recibe respuesta. Responder rápido no reemplaza un buen producto o precio, pero sin eso, ni siquiera se llega a esa conversación.',
+          },
+        ],
+      },
+      {
+        type: 'callout',
+        text: 'Piénsalo al revés: si tu competencia responde en cinco minutos y tú en cinco horas, no estás compitiendo por el mismo cliente con las mismas condiciones, aunque tu producto sea mejor.',
+      },
     ],
     sources: [
       { title: '92 customer service statistics you need to know', url: 'https://www.zendesk.com/blog/customer-service-statistics/', publisher: 'Zendesk' },
@@ -753,6 +895,19 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'Muchas implementaciones exitosas combinan ambos: un árbol de decisiones para lo estructurado (menú, horarios, pedidos) y una capa de IA generativa solo para las preguntas abiertas que el árbol no contempla.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿La IA generativa es siempre más cara que un árbol de decisiones?',
+            a: 'Generalmente sí, tanto en configuración inicial como en costo operativo continuo, porque procesa cada mensaje de forma más compleja. Para un negocio con procesos muy repetibles, esa inversión adicional no siempre se justifica.',
+          },
+          {
+            q: '¿Puedo empezar con un árbol de decisiones y migrar después a IA generativa?',
+            a: 'Sí, es un camino común. Muchos negocios validan primero sus flujos más frecuentes con un árbol de decisiones, y solo añaden IA generativa cuando el catálogo o las consultas se vuelven demasiado variadas para menús fijos.',
+          },
+        ],
       },
     ],
     sources: [
@@ -809,6 +964,19 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'Un buen traspaso no es una falla del bot: es la parte del diseño que demuestra que el chatbot conoce sus propios límites.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cómo sabe el equipo humano que una conversación necesita su atención?',
+            a: 'Lo ideal es una notificación automática (por correo, por una app interna o por el mismo panel del chatbot) apenas se activa el traspaso, con el resumen de la conversación incluido, para que la persona no tenga que buscarla.',
+          },
+          {
+            q: '¿Es necesario tener a alguien disponible las 24 horas para atender los traspasos?',
+            a: 'No. Lo importante es ser honesto con el horario real: si el traspaso ocurre fuera de horario laboral, el bot debe decirlo con claridad y dar un tiempo estimado de respuesta, en vez de dejar la conversación en silencio.',
+          },
+        ],
+      },
     ],
     sources: [
       { title: '92 customer service statistics you need to know', url: 'https://www.zendesk.com/blog/customer-service-statistics/', publisher: 'Zendesk' },
@@ -854,6 +1022,23 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'El recordatorio automático es, en la práctica, la función que más rápido se paga sola: cada cita a la que el cliente sí llega, en vez de olvidarla, es tiempo de silla que no se pierde.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cuántas citas perdidas evita en promedio un recordatorio automático?',
+            a: 'Varía por negocio, pero los salones que implementan recordatorios reportan una reducción notable en las ausencias sin aviso, porque buena parte de las inasistencias son por olvido, no por decisión de cancelar.',
+          },
+          {
+            q: '¿Puede el chatbot manejar varios estilistas con horarios distintos?',
+            a: 'Sí, siempre que el sistema esté conectado a la disponibilidad real de cada profesional. El bot puede preguntar si el cliente tiene preferencia de estilista y ofrecer solo los horarios en los que esa persona está libre.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Un salón que además promociona servicios nuevos o paquetes de temporada puede aprovechar el mismo canal para anunciarlos, siempre respetando las reglas de plantillas y consentimiento: el cliente que ya confía en el canal para agendar es también el más receptivo a enterarse de una promoción relevante para él.',
       },
     ],
     sources: [],
@@ -901,7 +1086,15 @@ export const posts: BlogPost[] = [
             q: '¿Es seguro manejar datos de pacientes en un chatbot de WhatsApp?',
             a: 'El chatbot debe limitarse a datos administrativos (nombre, fecha, motivo general de consulta) y seguir las mismas políticas de protección de datos personales que ya aplica el consultorio, evitando el manejo de información clínica sensible por ese canal.',
           },
+          {
+            q: '¿El chatbot puede recordar exámenes o controles periódicos, no solo citas?',
+            a: 'Sí, si el consultorio registra esa periodicidad (un control cada seis meses, por ejemplo), el chatbot puede programar el recordatorio automáticamente sin que el paciente tenga que acordarse por su cuenta.',
+          },
         ],
+      },
+      {
+        type: 'p',
+        text: 'La reducción de inasistencias no solo mejora los ingresos del consultorio: también beneficia a otros pacientes que podrían haber ocupado ese espacio de agenda. Un recordatorio bien enviado, con opción clara de reagendar, convierte una ausencia silenciosa en un cupo que otra persona sí puede aprovechar.',
       },
     ],
     sources: [],
@@ -946,6 +1139,19 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'Un catálogo desactualizado es peor que no tener catálogo: genera la sensación de que el negocio no está prestando atención.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cuántos productos debería tener un catálogo de WhatsApp?',
+            a: 'No hay un número fijo, pero conviene priorizar calidad sobre cantidad: es mejor un catálogo de 30 productos bien fotografiados y actualizados que uno de 300 con información desactualizada o fotos genéricas.',
+          },
+          {
+            q: '¿El catálogo de WhatsApp reemplaza tener una tienda en línea propia?',
+            a: 'Para muchos negocios pequeños, sí es suficiente como vitrina principal. Para negocios con catálogos muy amplios o procesos de pago complejos, suele funcionar mejor como complemento de una tienda en línea, no como reemplazo total.',
+          },
+        ],
       },
     ],
     sources: [
@@ -997,6 +1203,23 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'Si solo puedes medir una cosa, mide la tasa de conversión por flujo: te dice exactamente qué parte del chatbot está generando negocio y cuál solo está generando tráfico de mensajes.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Con qué frecuencia debería revisar estas métricas?',
+            a: 'Una revisión semanal es suficiente para la mayoría de negocios pequeños y medianos. Revisar a diario suele generar ruido por variaciones normales; revisar solo una vez al mes deja pasar demasiado tiempo antes de corregir un flujo que está fallando.',
+          },
+          {
+            q: '¿Necesito una herramienta especial para medir esto?',
+            a: 'La mayoría de plataformas de chatbot para WhatsApp incluyen un panel básico de métricas. Si no lo tiene, un registro simple en una hoja de cálculo —conversaciones, resultado, tiempo de respuesta— ya permite empezar a tomar decisiones con datos.',
+          },
+        ],
+      },
+      {
+        type: 'callout',
+        text: 'Medir sin actuar sobre lo que muestran los datos es tan inútil como no medir. Si la tasa de abandono es alta en un paso específico del flujo, ese paso es exactamente el que hay que rediseñar primero.',
+      },
     ],
     sources: [],
   },
@@ -1038,6 +1261,23 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'Pedir el opt-in de forma clara no es solo un requisito de la plataforma: es la razón principal por la que un cliente no reporta ni bloquea el número, porque siente que dio permiso para esa conversación.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Necesito guardar prueba del consentimiento de cada cliente?',
+            a: 'Es una buena práctica conservar algún registro (el formulario firmado, la captura del mensaje inicial del cliente) especialmente para plantillas de marketing, en caso de que Meta o el propio cliente cuestionen el origen del contacto.',
+          },
+          {
+            q: '¿El opt-in aplica también a clientes antiguos que ya me escribían antes de tener el chatbot?',
+            a: 'Si esos clientes ya habían iniciado conversación por su cuenta, ese historial cuenta como una forma de consentimiento para seguir atendiéndolos. Lo que sí requiere opt-in explícito es iniciar tú una conversación de marketing con ellos después de mucho tiempo sin interacción.',
+          },
+        ],
+      },
+      {
+        type: 'callout',
+        text: 'Un chatbot bien diseñado casi nunca se mete en problemas de consentimiento, porque solo entra en acción cuando el cliente ya inició la conversación. El riesgo aparece en el uso de plantillas de marketing hacia listas que nunca dieron ese permiso.',
       },
     ],
     sources: [
@@ -1082,6 +1322,19 @@ export const posts: BlogPost[] = [
       {
         type: 'p',
         text: 'No es que el comercio conversacional vaya a reemplazar el checkout tradicional de un día para otro. Es que, para un número creciente de clientes, la primera y a veces única interacción de compra ya ocurre dentro de un chat, y los negocios que no están presentes ahí, con una respuesta rápida, están perdiendo esa conversación antes de que empiece.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿"Comercio conversacional" es lo mismo que tener un chatbot?',
+            a: 'Un chatbot es una de las formas de hacer comercio conversacional, pero el concepto es más amplio: incluye cualquier compra que se decide o se completa a través de una conversación, sea con un bot, con IA generativa o con una persona por chat.',
+          },
+          {
+            q: '¿Qué tipo de negocios se benefician más de este modelo?',
+            a: 'Los negocios donde la decisión de compra necesita una pregunta antes de cerrar —talla, disponibilidad, personalización— se benefician más que los que venden productos totalmente estandarizados sin necesidad de consulta previa.',
+          },
+        ],
       },
     ],
     sources: [
@@ -1132,6 +1385,23 @@ export const posts: BlogPost[] = [
         type: 'p',
         text: 'Un chatbot no necesita esconder que es un chatbot. La mayoría de clientes no le molesta hablar con una IA si sabe que puede pedir un humano en cualquier momento y si siente que sus datos (nombre, dirección, historial de pedidos) se usan solo para atenderlo mejor, no para fines que no autorizó.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Debo avisar explícitamente que el cliente está hablando con un bot?',
+            a: 'Es una buena práctica hacerlo desde el primer mensaje, con algo simple como "Soy el asistente virtual de [negocio]". La transparencia genera más confianza que intentar que el bot se haga pasar por una persona.',
+          },
+          {
+            q: '¿Qué información no debería pedir nunca un chatbot?',
+            a: 'Datos financieros completos (números de tarjeta), contraseñas o información médica sensible no deberían solicitarse ni procesarse a través de un chatbot de WhatsApp, sin importar qué tan bien entrenado esté.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'La confianza en un canal automatizado se construye igual que la confianza en cualquier relación comercial: con consistencia. Un negocio que es transparente sobre cómo usa los datos, que responde bien y que nunca deja al cliente sin salida hacia una persona, gana esa confianza más rápido que uno que solo promete "inteligencia artificial de punta" sin explicar qué significa eso para el cliente.',
+      },
     ],
     sources: [
       {
@@ -1174,6 +1444,23 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'Tener acceso a la tecnología no es lo mismo que tener un chatbot bien configurado. La IA nativa de Meta es una herramienta más potente, pero sigue necesitando el mismo trabajo de diseño de flujos, catálogo actualizado y reglas claras de traspaso a un humano.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Un negocio pequeño puede acceder a Meta Business Agent directamente?',
+            a: 'El acceso y la disponibilidad varían según el mercado y el proveedor que administre la cuenta. La mayoría de negocios pequeños acceden a estas capacidades a través de un integrador que ya tiene la plataforma configurada.',
+          },
+          {
+            q: '¿Esto reemplaza a los proveedores externos de chatbots?',
+            a: 'No necesariamente. Muchos proveedores externos ya están integrando estas capacidades nativas de Meta dentro de sus propias plataformas, combinando la infraestructura oficial con una interfaz más simple para el negocio.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Lo importante para un negocio que evalúa estas opciones no es de qué tecnología exacta habla el proveedor, sino qué tan bien esa tecnología termina resolviendo las conversaciones reales de sus clientes. La infraestructura de Meta es la base técnica; el resultado sigue dependiendo de qué tan bien se configura sobre ella.',
       },
     ],
     sources: [
@@ -1220,6 +1507,23 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'La prueba más simple para detectar estos errores: haz que alguien externo al negocio use el chatbot con preguntas reales, sin guion, y anota cada momento en que sintió que "no lo entendieron".',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cómo corrijo un chatbot que ya está fallando con clientes reales?',
+            a: 'Revisa el historial de conversaciones recientes para identificar patrones de fallo, ajusta las respuestas que generaron confusión y agrega esas preguntas al entrenamiento. Corregir con datos reales es más efectivo que reescribir todo desde cero.',
+          },
+          {
+            q: '¿Con qué frecuencia debería auditar las respuestas del chatbot?',
+            a: 'Una revisión mensual del historial de conversaciones es un buen punto de partida para negocios pequeños, aumentando la frecuencia si el volumen de mensajes o el catálogo cambian con regularidad.',
+          },
+        ],
+      },
+      {
+        type: 'callout',
+        text: 'Un chatbot que admite "no tengo esa información, te conecto con alguien del equipo" genera más confianza que uno que siempre parece saberlo todo. La honestidad sobre sus límites es, paradójicamente, lo que lo hace parecer más confiable.',
+      },
     ],
     sources: [],
   },
@@ -1258,6 +1562,23 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'Una inmobiliaria que automatiza bien este primer filtro no agenda menos visitas: agenda mejores visitas, con gente que llega con expectativas ya alineadas al inmueble real.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿El chatbot puede mostrar varias propiedades a la vez?',
+            a: 'Sí, especialmente si está conectado a un catálogo o inventario de propiedades: puede filtrar por zona, presupuesto y tipo de inmueble, y enviar las fichas que mejor calzan con lo que pidió el interesado.',
+          },
+          {
+            q: '¿Qué pasa si el interesado no tiene claro su presupuesto?',
+            a: 'El bot puede ofrecer rangos generales según la zona de interés para ayudarlo a definirlo, y dejar que un asesor humano profundice en el análisis financiero completo cuando el interés ya es más concreto.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'El costo de una visita mal calificada no es solo el tiempo del asesor: es también el desgaste de mostrar un inmueble a alguien que nunca tuvo intención real de decidir, lo que erosiona la motivación del equipo comercial con el tiempo. Filtrar bien desde el chat protege tanto el tiempo como el ánimo del equipo.',
+      },
     ],
     sources: [],
   },
@@ -1293,6 +1614,23 @@ export const posts: BlogPost[] = [
         type: 'p',
         text: 'La asesoría de estilo —qué combina con qué, qué le queda mejor a cada cliente— sigue siendo terreno humano. El chatbot no debería intentar reemplazar esa conversación: debería resolver todo lo operativo (talla, color, envío, pago) para que, cuando el cliente sí quiera consejo de estilo, alguien del equipo pueda dedicarle tiempo real a esa conversación.',
       },
+      {
+        type: 'p',
+        text: 'Un detalle que muchas tiendas de ropa pasan por alto: las devoluciones y cambios de talla también se pueden estructurar en el chatbot. Preguntar el motivo, confirmar la nueva talla o color disponible y coordinar la recogida son pasos tan repetibles como tomar el pedido original, y suelen consumir tanto tiempo del equipo como las ventas mismas.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Se pueden mostrar fotos reales de cómo lucen las prendas en distintas tallas?',
+            a: 'Sí, si el negocio las tiene disponibles. Incluirlas en el catálogo o enviarlas bajo pedido reduce las devoluciones por expectativa distinta a la prenda real, uno de los mayores costos ocultos de vender ropa por chat.',
+          },
+          {
+            q: '¿Qué hago si un color o talla se agota mientras el bot lo sigue mostrando?',
+            a: 'El catálogo debe actualizarse con la misma frecuencia que el inventario. Si eso no es posible en tiempo real, el bot debe confirmar siempre disponibilidad exacta antes de cerrar el pedido, no asumir que lo que aparece en el catálogo sigue disponible.',
+          },
+        ],
+      },
     ],
     sources: [],
   },
@@ -1327,6 +1665,30 @@ export const posts: BlogPost[] = [
       {
         type: 'p',
         text: 'La mayoría de negocios exitosos no eligen uno u otro: usan Instagram para atraer y mostrar producto, y dirigen la conversación de compra hacia WhatsApp en el momento en que el interés es real ("escríbenos por WhatsApp para separar tu pedido"). Ese traspaso deliberado evita perder ventas en un canal donde la automatización y el seguimiento son más limitados.',
+      },
+      {
+        type: 'h2', text: 'Cómo hacer bien el traspaso de Instagram a WhatsApp',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Incluir el enlace directo de WhatsApp (wa.me) en la biografía y en las respuestas a comentarios frecuentes.',
+          'Usar los anuncios de "clic a WhatsApp" para que la conversación empiece directamente ahí, sin pasos intermedios.',
+          'Responder en Instagram lo mínimo necesario para generar confianza, e invitar a continuar por WhatsApp para todo lo que implique cerrar una compra.',
+        ],
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Perder al cliente en el traspaso de un canal a otro es un riesgo real?',
+            a: 'Sí, cada paso adicional reduce la probabilidad de que el cliente continúe. Por eso el enlace directo a WhatsApp con un mensaje pre-escrito, en lugar de pedirle que escriba el número manualmente, reduce esa fricción casi a cero.',
+          },
+          {
+            q: '¿Vale la pena automatizar también las respuestas de Instagram?',
+            a: 'Para preguntas muy básicas sí, pero la recomendación general es no construir un chatbot complejo en Instagram: es más eficiente invertir ese esfuerzo en automatizar bien WhatsApp, que es donde ocurre la conversación transaccional real.',
+          },
+        ],
       },
     ],
     sources: [
@@ -1380,6 +1742,19 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'El historial de conversaciones de la app no se traslada automáticamente a la API. Vale la pena exportar o anotar la información clave de clientes frecuentes antes de hacer el cambio.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Puedo seguir usando la app de WhatsApp Business en otro número mientras migro el principal?',
+            a: 'Sí, ambas pueden coexistir en números distintos. Muchos negocios mantienen la app en un número secundario para casos puntuales mientras el número principal ya opera sobre la API.',
+          },
+          {
+            q: '¿La migración tiene algún costo directo con Meta?',
+            a: 'El proceso de migración en sí no tiene costo, pero a partir de ese momento el número queda sujeto al modelo de precios por mensaje de la WhatsApp Business Platform, distinto al uso gratuito de la app.',
+          },
+        ],
+      },
     ],
     sources: [
       {
@@ -1425,6 +1800,23 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'La señal de que esta integración está bien hecha es sencilla: nadie en el negocio tiene que revisar dos calendarios distintos para saber qué citas hay hoy.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Qué calendarios se pueden conectar además de Google Calendar?',
+            a: 'La mayoría de plataformas de chatbot se integran también con Outlook Calendar y con sistemas propios de agenda que ya usen negocios de salud, belleza o servicios, siempre que expongan una API o una integración compatible.',
+          },
+          {
+            q: '¿Qué pasa si dos clientes intentan agendar el mismo horario al mismo tiempo?',
+            a: 'Una buena integración bloquea el horario apenas el primer cliente confirma, de modo que el segundo ya lo ve como no disponible en tiempo real, evitando el doble agendamiento.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Esta conexión es, en la práctica, lo que separa a un chatbot que "toma pedidos de citas" de uno que realmente administra la agenda del negocio. La diferencia no siempre se nota en el primer mensaje, pero se nota de inmediato el día en que dos clientes reclaman el mismo horario porque el sistema no estaba sincronizado.',
+      },
     ],
     sources: [],
   },
@@ -1464,6 +1856,31 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'La pregunta más honesta para calcular tu propio ROI no es "¿cuánto cuesta el chatbot?", sino "¿cuántas ventas o citas se están perdiendo hoy por no responder a tiempo?". Ese número, multiplicado por un mes, casi siempre supera el costo de automatizar.',
+      },
+      {
+        type: 'h2', text: 'Un ejercicio simple para estimar tu propio ROI',
+      },
+      {
+        type: 'ol',
+        items: [
+          'Calcula cuántos mensajes de WhatsApp recibe tu negocio en un día normal.',
+          'Estima qué porcentaje se responde en menos de una hora versus varias horas después.',
+          'Asigna un valor promedio de venta o cita a cada conversación que llega.',
+          'Multiplica esa brecha de tiempo de respuesta por el valor promedio: ese es el ingreso que probablemente se está perdiendo hoy, antes de automatizar nada.',
+        ],
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cuánto tiempo toma empezar a ver resultados después de automatizar?',
+            a: 'La mayoría de negocios notan cambios en la velocidad de respuesta desde la primera semana. Ver el impacto completo en conversión suele tomar de tres a ocho semanas, tiempo suficiente para que el flujo se ajuste con datos reales.',
+          },
+          {
+            q: '¿El ROI es el mismo para todos los sectores?',
+            a: 'No. Negocios con ciclos de compra rápidos y alto volumen de preguntas repetitivas (restaurantes, retail) suelen ver retorno más rápido que negocios con ventas complejas y de ciclo largo, donde el chatbot ayuda más a filtrar que a cerrar directamente.',
+          },
+        ],
       },
     ],
     sources: [
@@ -1510,6 +1927,19 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'El seguimiento automático no busca convencer a quien ya dijo que no: busca alcanzar al cliente que sí quería comprar pero simplemente se le pasó responder, que en la práctica es la mayoría de los "carritos abandonados".',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cuántos intentos de seguimiento son razonables antes de parar?',
+            a: 'Dos intentos espaciados suelen ser suficientes: uno recordando la conversación pendiente y, si no hay respuesta, uno final con algo de valor adicional (una duda resuelta, una alternativa). Insistir más allá de eso empieza a sentirse invasivo.',
+          },
+          {
+            q: '¿Este seguimiento se puede automatizar por completo o alguien debe revisarlo?',
+            a: 'Se puede automatizar el envío, pero conviene revisar periódicamente las respuestas que genera para ajustar el mensaje si la tasa de recuperación es baja o si los clientes reaccionan con molestia.',
+          },
+        ],
+      },
     ],
     sources: [],
   },
@@ -1554,6 +1984,23 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'Un chatbot entrenado con preguntas inventadas por el dueño del negocio suele fallar justo en las primeras conversaciones reales. Un chatbot entrenado con el historial real de WhatsApp acierta desde el primer día.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cuántas preguntas frecuentes necesita un chatbot para empezar a funcionar bien?',
+            a: 'No hay un número exacto, pero cubrir las 20-30 preguntas más repetidas del historial de WhatsApp suele resolver la gran mayoría de las conversaciones diarias en un negocio pequeño o mediano.',
+          },
+          {
+            q: '¿Qué hago con preguntas que solo aparecen una vez cada varios meses?',
+            a: 'No necesitan estar en el entrenamiento inicial del bot. Para esos casos poco frecuentes, es más eficiente que el bot reconozca que no tiene la respuesta y pase la conversación a una persona.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Un chatbot no se entrena una sola vez: se afina con el tiempo, a medida que el negocio cambia su catálogo, sus precios o sus políticas. Tratar el entrenamiento como un proceso continuo, no como una configuración inicial que se olvida, es lo que separa a los chatbots que mejoran con el tiempo de los que se quedan estancados.',
+      },
     ],
     sources: [],
   },
@@ -1587,6 +2034,23 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'Los negocios que hoy invierten en tener su información de producto clara y accesible por chat —precio, disponibilidad, políticas— no solo mejoran su WhatsApp: se preparan para un comercio donde cada vez más decisiones de compra empiezan en una conversación con una IA.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Un agente de IA de terceros puede comprar directamente en mi negocio?',
+            a: 'El estándar todavía está en desarrollo (Google referencia el Universal Commerce Protocol como un protocolo emergente para esto), pero tener información de producto estructurada y accesible es, desde ya, lo que prepara a un negocio para participar cuando ese modelo madure.',
+          },
+          {
+            q: '¿Debo cambiar algo en mi WhatsApp para prepararme para el agentic commerce?',
+            a: 'Lo más importante hoy es tener catálogo, precios y políticas claros y actualizados, accesibles por chat. Esa misma base de información es la que necesitaría cualquier agente de IA —tuyo o de un cliente— para operar bien.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Es fácil ver esto como una tendencia lejana, propia de mercados más grandes. Pero la base que la sostiene —información de producto clara, accesible y conversacional— es exactamente lo mismo que ya necesita cualquier negocio hoy para que su WhatsApp funcione bien. Prepararse para el agentic commerce y tener un buen chatbot hoy son, en la práctica, el mismo trabajo.',
       },
     ],
     sources: [
@@ -1632,6 +2096,23 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'El objetivo no es reemplazar la cercanía del tendero de barrio: es que esa cercanía no se pierda entre veinte mensajes de "¿tienen esto?" que un bot podría responder solo.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Necesito un catálogo digital si mi inventario cambia todo el tiempo?',
+            a: 'No es indispensable un catálogo completo: el bot puede simplemente confirmar disponibilidad de un producto puntual cuando el cliente pregunta, sin necesidad de mantener listado exhaustivo de todo el inventario.',
+          },
+          {
+            q: '¿Vale la pena automatizar un negocio con pocos mensajes al día?',
+            a: 'Si son pocas preguntas muy variadas, quizás no sea prioritario. Pero si son pocas preguntas muy repetidas (horario, tal producto, tal precio), automatizarlas libera tiempo incluso en negocios de bajo volumen.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Muchas ferreterías de barrio compiten, sin saberlo, contra grandes cadenas que sí tienen su WhatsApp bien atendido. La diferencia que puede inclinar la balanza a favor del negocio pequeño no es el precio ni el inventario: es que el cliente de barrio prefiere comprarle a quien conoce, siempre que le respondan con la misma rapidez que esperaría de una cadena grande.',
+      },
     ],
     sources: [
       {
@@ -1676,6 +2157,34 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'Automatizar lo administrativo libera tiempo para lo que sí retiene a un cliente de gimnasio: la atención personal del entrenador, no un mensaje de bienvenida genérico.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿El chatbot puede cobrar la mensualidad directamente?',
+            a: 'Depende de la integración: algunos sistemas permiten enviar un enlace de pago dentro de la conversación de WhatsApp, mientras que otros solo recuerdan el vencimiento y dejan el pago para el canal habitual del gimnasio.',
+          },
+          {
+            q: '¿Sirve también para gimnasios pequeños con pocos inscritos?',
+            a: 'Sí, incluso con volumen bajo, el recordatorio automático de pago evita la incomodidad de tener que cobrar personalmente a cada cliente, algo que muchos dueños de gimnasios pequeños prefieren evitar.',
+          },
+        ],
+      },
+      {
+        type: 'h2', text: 'Recuperar inscritos que dejaron de asistir',
+      },
+      {
+        type: 'p',
+        text: 'Además de pagos y clases, el chatbot puede jugar un papel en algo que casi ningún gimnasio hace de forma sistemática: contactar a quien dejó de asistir antes de que decida cancelar. Un mensaje simple ("Hace tiempo no te vemos, ¿todo bien? Aquí tienes las clases de esta semana") cuesta poco y a veces es suficiente para reactivar a alguien que solo perdió la rutina, no el interés.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Detecta automáticamente inscritos que no han registrado ingreso en dos o tres semanas.',
+          'Envía un mensaje de reactivación con información útil, no solo una pregunta genérica.',
+          'Deja constancia de la respuesta para que el equipo humano decida si vale la pena un seguimiento más personal.',
+        ],
+      },
     ],
     sources: [],
   },
@@ -1713,6 +2222,31 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'El recordatorio de vacunas es, para una veterinaria, el equivalente al recordatorio de cita en un consultorio médico: una función simple que evidencia cuidado real por el paciente, en este caso de cuatro patas.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cómo sabe el chatbot cuándo le toca el próximo refuerzo a cada mascota?',
+            a: 'A partir del historial clínico registrado en el sistema de la veterinaria: si se sabe cuándo fue la última dosis y cada cuánto se repite, el bot puede calcular y programar el recordatorio automáticamente.',
+          },
+          {
+            q: '¿Qué pasa si el dueño de la mascota no responde al recordatorio?',
+            a: 'Un segundo recordatorio unos días después suele ser razonable. Si sigue sin haber respuesta, lo ideal es que quede registrado para que el equipo humano decida si vale la pena un contacto más directo.',
+          },
+        ],
+      },
+      {
+        type: 'h2', text: 'Un flujo completo, de la cita al recordatorio',
+      },
+      {
+        type: 'ol',
+        items: [
+          'El dueño de la mascota escribe pidiendo una cita o consulta.',
+          'El bot ofrece horarios disponibles y confirma la cita con nombre de la mascota y motivo general.',
+          'Tras la consulta, el sistema queda registrado con la fecha del próximo control o refuerzo, si aplica.',
+          'Días antes de esa fecha, el bot envía el recordatorio automático sin que nadie del equipo tenga que revisarlo manualmente.',
+        ],
       },
     ],
     sources: [],
@@ -1754,6 +2288,26 @@ export const posts: BlogPost[] = [
         type: 'p',
         text: 'Si ninguna de estas señales aplica todavía, la app gratuita sigue siendo una opción razonable. La API no es "mejor" en abstracto: es la herramienta correcta cuando el volumen y la complejidad ya superaron lo que una sola persona puede manejar desde un celular.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Puedo probar la API antes de comprometerme del todo?',
+            a: 'Sí, muchos proveedores ofrecen planes de entrada con funciones básicas para probar el flujo antes de invertir en una configuración más completa, lo que reduce el riesgo de dar el salto sin necesidad.',
+          },
+          {
+            q: '¿Perder la app gratuita significa perder los chats que ya tenía guardados?',
+            a: 'El historial de conversaciones de la app no se traslada automáticamente a la API, así que conviene guardar la información importante de clientes frecuentes antes de hacer la migración completa.',
+          },
+        ],
+      },
+      {
+        type: 'h2', text: 'Una forma simple de decidir sin dudar',
+      },
+      {
+        type: 'p',
+        text: 'Si al leer las tres señales de migración sentiste que al menos dos ya son un problema real en tu negocio, probablemente ya pasaste el punto donde la app gratuita sigue siendo suficiente. La API no es un salto tecnológico complicado: es simplemente la versión de WhatsApp diseñada para el volumen y la complejidad que tu negocio ya alcanzó.',
+      },
     ],
     sources: [
       {
@@ -1794,6 +2348,27 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'Un chatbot institucional no reemplaza la comunicación humana del colegio con las familias: reemplaza el caos de un grupo masivo por un canal directo, donde cada acudiente encuentra la información que necesita sin tener que leer cien mensajes ajenos.',
       },
+      {
+        type: 'p',
+        text: 'Un beneficio adicional que pocos colegios consideran: un canal directo por WhatsApp también ayuda a identificar qué acudientes no están recibiendo o leyendo la información importante, algo casi imposible de rastrear dentro de un grupo masivo donde nadie sabe realmente quién vio el aviso.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿El chatbot reemplaza la plataforma académica que ya usa el colegio?',
+            a: 'No. El chatbot es un canal de comunicación y primer filtro de consultas; las calificaciones, tareas y contenido académico siguen viviendo en la plataforma educativa del colegio, a la que el bot puede simplemente dirigir al acudiente.',
+          },
+          {
+            q: '¿Se puede usar el mismo chatbot para varios cursos o sedes?',
+            a: 'Sí, siempre que el sistema permita segmentar la información por curso o sede, de modo que cada acudiente reciba solo los avisos relevantes para su hijo o hija, no los de todo el colegio.',
+          },
+        ],
+      },
+      {
+        type: 'callout',
+        text: 'Un colegio que responde rápido y con claridad a través de un canal ordenado transmite algo importante a las familias: que la institución está organizada, no solo académicamente sino también en cómo se comunica con ellas.',
+      },
     ],
     sources: [],
   },
@@ -1831,6 +2406,23 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'El valor de este filtro no es responder más rápido preguntas legales: es que el abogado dedique su tiempo a analizar el caso, no a repetir la misma explicación de tarifas y procesos con cada nuevo contacto.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Es riesgoso manejar información legal sensible por WhatsApp?',
+            a: 'El chatbot debe limitarse a recolectar información general (tipo de trámite, urgencia, datos de contacto), no detalles confidenciales del caso. Esos detalles deben tratarse directamente con el abogado, por los canales de confidencialidad habituales del despacho.',
+          },
+          {
+            q: '¿El chatbot puede dar cotizaciones exactas de honorarios?',
+            a: 'Solo si las tarifas son estandarizadas para ciertos trámites. Para casos que requieren análisis particular, es mejor que el bot dé un rango general y deje la cotización exacta para la primera consulta con el abogado.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Un despacho que responde en minutos a una primera consulta, aunque sea solo para agendar, transmite una señal de organización que muchos clientes valoran tanto como la reputación del abogado mismo. En un área donde la confianza es determinante, la rapidez inicial ya empieza a construir esa confianza antes de la primera reunión.',
       },
     ],
     sources: [],
@@ -1870,6 +2462,26 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'La cotización automática no solo ahorra tiempo interno: le da al cliente una respuesta inmediata en el momento en que está comparando opciones, que suele ser el momento decisivo para elegir un transportador u otro.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿El chatbot puede dar seguimiento al envío después de cotizarlo?',
+            a: 'Sí, si está conectado al sistema de rastreo de la empresa. El mismo canal que cotizó el envío puede responder preguntas de estado ("¿dónde va mi encomienda?") sin que el cliente tenga que llamar o escribir a otra parte.',
+          },
+          {
+            q: '¿Qué pasa con destinos o productos que no están en las tarifas cargadas?',
+            a: 'El bot debe reconocer cuándo un caso sale de sus parámetros estándar y pasarlo a una persona, en vez de forzar una cotización con datos incompletos que después generen un reclamo.',
+          },
+        ],
+      },
+      {
+        type: 'h2', text: 'Por qué la velocidad de cotización importa tanto en logística',
+      },
+      {
+        type: 'p',
+        text: 'Quien necesita enviar algo suele comparar entre dos o tres transportadores antes de decidir, casi siempre en la misma conversación mental: escribe a varios, compara precio y tiempo, y elige. El que responde primero con una cifra clara tiene una ventaja real, independientemente de si su tarifa termina siendo la más baja del grupo.',
+      },
     ],
     sources: [],
   },
@@ -1903,6 +2515,27 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'El aviso automático de "tu carro está listo" es, para el cliente, una de las señales más claras de un taller organizado, incluso antes de ver el trabajo terminado.',
+      },
+      {
+        type: 'p',
+        text: 'Otro punto donde un chatbot ayuda mucho en un taller: aprobar reparaciones adicionales que aparecen durante el diagnóstico. En lugar de una llamada que interrumpe el trabajo, el bot puede enviar la lista de hallazgos con su costo estimado, y el cliente aprueba o rechaza cada uno directamente desde el chat.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿El cliente puede aprobar reparaciones adicionales por WhatsApp?',
+            a: 'Sí, es una de las funciones más útiles: el bot envía el detalle y el costo de cada hallazgo durante el diagnóstico, y el cliente responde qué autoriza, sin necesidad de una llamada que interrumpa el trabajo del taller.',
+          },
+          {
+            q: '¿Qué tan seguido debería el bot enviar actualizaciones del estado del vehículo?',
+            a: 'Con dos o tres actualizaciones suele ser suficiente para la mayoría de reparaciones: al recibir el vehículo, si aparece un hallazgo relevante durante el diagnóstico, y cuando queda listo para recoger.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'También ayuda a reducir un problema típico de los talleres: los recordatorios de mantenimiento preventivo que hoy dependen de que alguien recuerde revisar una lista de clientes. Si el sistema ya sabe cuándo un vehículo debería volver por su próximo cambio de aceite o revisión, ese recordatorio puede salir solo, sin depender de la memoria de nadie del equipo.',
       },
     ],
     sources: [],
@@ -1938,6 +2571,35 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'En un negocio donde la experiencia del cliente es el producto mismo, cada minuto que el equipo no pierde en tareas administrativas es un minuto más de atención real dentro del servicio.',
       },
+      {
+        type: 'h2', text: 'Un flujo típico de reserva',
+      },
+      {
+        type: 'ol',
+        items: [
+          'El cliente escribe pidiendo un tratamiento o pregunta por paquetes disponibles.',
+          'El bot muestra opciones, duración y precio, y pregunta la fecha preferida.',
+          'El bot confirma el horario según disponibilidad real del especialista solicitado.',
+          'Un día antes, el bot envía recordatorio y pide confirmación de asistencia.',
+        ],
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Se pueden vender paquetes o bonos de sesiones por WhatsApp?',
+            a: 'Sí, el chatbot puede explicar los paquetes disponibles, tomar el pedido y coordinar el pago, además de llevar el control de cuántas sesiones le quedan a cada cliente si el sistema lo permite.',
+          },
+          {
+            q: '¿Qué pasa si un cliente quiere cambiar de especialista a última hora?',
+            a: 'El bot puede ofrecer la disponibilidad de otros especialistas en el mismo horario. Si no hay opción disponible, debe pasar el caso a una persona para resolverlo sin perder la cita.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Un detalle que marca diferencia en este sector: el mensaje de recordatorio puede incluir indicaciones previas al tratamiento (llegar sin maquillaje, evitar exposición al sol el día anterior), algo que reduce reprogramaciones de último minuto porque el cliente no cumplió una condición que nadie le recordó a tiempo.',
+      },
     ],
     sources: [],
   },
@@ -1972,6 +2634,34 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'Este tipo de recordatorio no se siente como publicidad: se siente como un buen servicio, porque llega justo cuando el cliente lo necesita, no cuando al negocio le conviene vender.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cómo calculo cada cuánto le dura el producto a cada cliente?',
+            a: 'Con el historial de compras: si un cliente compra el mismo bulto cada 30 días en promedio, ese es el ciclo a usar. Con el tiempo, el sistema puede ajustar el cálculo según el patrón real de cada cliente.',
+          },
+          {
+            q: '¿Funciona igual para otros productos de compra recurrente, no solo alimento?',
+            a: 'Sí, el mismo principio aplica a arena para gatos, antipulgas u otros productos de consumo periódico: cualquier producto con un ciclo de recompra predecible se beneficia de un recordatorio automático bien calculado.',
+          },
+        ],
+      },
+      {
+        type: 'h2', text: 'Por qué este modelo fideliza mejor que una promoción',
+      },
+      {
+        type: 'p',
+        text: 'Una tienda de mascotas que compite solo por precio entra en una carrera que rara vez gana frente a grandes superficies. El recordatorio de recompra compite en otro terreno: la comodidad. El cliente no tiene que acordarse, comparar ni volver a decidir cada mes; solo confirma "sí, el de siempre" y el pedido queda en marcha. Esa fricción mínima es, en la práctica, más efectiva para retener clientes que un descuento puntual.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Registra el producto y la cantidad exacta que compra cada cliente, no solo "compró alimento".',
+          'Ajusta el ciclo de recordatorio si el cliente empieza a comprar antes o después de lo esperado.',
+          'Aprovecha el mismo mensaje para avisar si hay una nueva presentación o producto relacionado real.',
+        ],
+      },
     ],
     sources: [],
   },
@@ -2005,6 +2695,34 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'Confirmar disponibilidad de fecha en segundos, sin esperar a que alguien revise una agenda física, suele ser la razón por la que un cliente elige un proveedor antes que otro.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿El chatbot puede cobrar el anticipo para separar la fecha?',
+            a: 'Sí, si está integrado con una pasarela de pago, el bot puede enviar el enlace de pago del anticipo directamente en la conversación, dejando la fecha bloqueada solo cuando el pago se confirma.',
+          },
+          {
+            q: '¿Qué pasa con eventos muy personalizados que no calzan en un paquete estándar?',
+            a: 'El bot recoge la información inicial (tipo de evento, fecha, número de invitados) y pasa el caso a una persona del equipo comercial para armar una cotización a medida, en vez de forzar un paquete que no aplica.',
+          },
+        ],
+      },
+      {
+        type: 'h2', text: 'El costo real de tardar en responder en este sector',
+      },
+      {
+        type: 'p',
+        text: 'Quien organiza un evento casi nunca pregunta disponibilidad a un solo proveedor: compara varios al mismo tiempo. El primero en confirmar fecha y dar una cifra concreta suele quedarse con la conversación, incluso si después el precio final no es el más bajo del mercado. Responder en minutos, no en horas, es en este negocio una ventaja competitiva tan importante como el portafolio mismo.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Mantén la agenda de fechas disponibles siempre actualizada, para que el bot nunca ofrezca una fecha que ya se comprometió por otro canal.',
+          'Ten listos paquetes con precios de referencia para los tipos de evento más comunes, así el bot puede dar un rango inmediato.',
+          'Define de antemano qué información mínima necesita el equipo comercial antes de tomar la llamada de cierre.',
+        ],
       },
     ],
     sources: [],
@@ -2044,6 +2762,30 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'Responder "sí, tenemos disponible" en segundos, en vez de minutos, suele ser lo que decide si el cliente compra en esa farmacia o sigue preguntando en otra.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿El chatbot puede recomendar qué medicamento tomar?',
+            a: 'No debería. Cualquier recomendación sobre qué producto usar para un síntoma corresponde al químico farmacéutico o al personal capacitado del establecimiento, nunca a una respuesta automática del chatbot.',
+          },
+          {
+            q: '¿Sirve para farmacias que no tienen servicio de domicilio?',
+            a: 'Sí, incluso sin domicilio, resolver rápido la pregunta de disponibilidad ahorra desplazamientos innecesarios al cliente y reduce las llamadas o mensajes repetidos durante el día.',
+          },
+        ],
+      },
+      {
+        type: 'h2', text: 'Un ejemplo de conversación resuelta en segundos',
+      },
+      {
+        type: 'quote',
+        text: 'Cliente: "¿Tienen acetaminofén de 500mg?" — Bot: "Sí, tenemos disponible. Presentación de 20 tabletas, $8.500. ¿Deseas domicilio o recoges en el local?"',
+      },
+      {
+        type: 'p',
+        text: 'Ese intercambio, que a mano puede tardar varios minutos si el mostrador está ocupado con otro cliente, el bot lo resuelve al instante, a cualquier hora dentro del horario de atención. Para farmacias con turno de guardia nocturno, esto es todavía más valioso: reduce la necesidad de que alguien esté pendiente del teléfono durante la madrugada para preguntas simples de disponibilidad.',
+      },
     ],
     sources: [],
   },
@@ -2079,6 +2821,31 @@ export const posts: BlogPost[] = [
         type: 'p',
         text: 'Una plantilla genérica puede servir como primer paso, siempre que el negocio sepa que en algún momento tendrá que reemplazarla por algo diseñado con su catálogo, sus precios y las preguntas reales de sus clientes, no las de un negocio genérico imaginado por el proveedor.',
       },
+      {
+        type: 'h2', text: 'Cómo detectar si te están vendiendo una plantilla genérica',
+      },
+      {
+        type: 'ul',
+        items: [
+          'El proveedor no pregunta a fondo sobre tu catálogo, precios o proceso real antes de "entregarte" el chatbot.',
+          'Las respuestas de demostración usan ejemplos que no corresponden a tu tipo de negocio.',
+          'El tiempo de implementación es sospechosamente corto para lo que ofrece (menos de un día para un chatbot "completo").',
+          'No hay posibilidad real de ajustar el tono o el flujo a cómo habla realmente tu negocio.',
+        ],
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cómo sé si mi chatbot actual es una plantilla genérica reciclada?',
+            a: 'Una señal clara: si al usarlo con preguntas específicas de tu negocio (un producto puntual, una política particular) responde de forma vaga o genérica en vez de con tu información real, probablemente estás sobre una plantilla sin personalizar a fondo.',
+          },
+          {
+            q: '¿Vale la pena empezar con una plantilla genérica si el presupuesto es muy ajustado?',
+            a: 'Puede ser un punto de partida razonable para validar que el canal funciona, siempre que el negocio tenga claro que es un paso temporal, no la solución definitiva una vez el volumen de conversaciones crezca.',
+          },
+        ],
+      },
     ],
     sources: [],
   },
@@ -2113,6 +2880,23 @@ export const posts: BlogPost[] = [
       {
         type: 'p',
         text: 'Una vez que el WhatsApp del negocio responde rápido y de forma consistente —con o sin automatización— invertir en generar más contactos empieza a rendir de verdad, porque cada nuevo lead entra a un sistema que sí puede convertirlo. El orden importa: primero la capacidad de atender, después el volumen de contactos.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Cómo diagnostico si mi problema es de atención y no de tráfico?',
+            a: 'Revisa cuántos mensajes de WhatsApp llegaron la última semana y en cuánto tiempo se respondió cada uno. Si hay mensajes sin responder por horas o días, el cuello de botella está en la atención, no en la falta de contactos nuevos.',
+          },
+          {
+            q: '¿Automatizar la atención hace innecesaria la inversión en pauta?',
+            a: 'No, son complementarios. Automatizar resuelve la capacidad de respuesta; la pauta sigue siendo necesaria para generar el volumen de contactos que ese sistema, ya eficiente, puede convertir en ventas.',
+          },
+        ],
+      },
+      {
+        type: 'callout',
+        text: 'Antes de aprobar el siguiente presupuesto de pauta, vale la pena hacerse una pregunta incómoda: ¿estoy invirtiendo para conseguir más clientes, o para reemplazar a los que ya se me están yendo por no responder a tiempo?',
       },
     ],
     sources: [
@@ -2154,6 +2938,31 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'Las fechas exactas del Día sin IVA las define cada año el Ministerio de Hacienda a través de la DIAN, así que vale la pena confirmar el calendario oficial vigente antes de planear la campaña, en vez de asumir las fechas del año anterior.',
       },
+      {
+        type: 'h2', text: 'Qué revisar la semana antes de la fecha',
+      },
+      {
+        type: 'ol',
+        items: [
+          'Confirmar el calendario oficial vigente de la DIAN para esa fecha específica.',
+          'Probar el flujo completo del chatbot con un volumen simulado de mensajes, no solo con pruebas aisladas.',
+          'Preparar una plantilla de utilidad para confirmaciones de pedido, dado el volumen esperado.',
+          'Definir de antemano quién del equipo humano estará disponible para los casos que el bot no pueda resolver ese día.',
+        ],
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Un chatbot puede manejar un aumento de 10 veces el volumen normal de mensajes?',
+            a: 'Técnicamente sí, ya que la plataforma escala sin depender de cuántas personas estén disponibles para responder. El límite real suele estar en qué tan bien preparado está el catálogo y las respuestas para ese volumen específico.',
+          },
+          {
+            q: '¿Debería pausar las plantillas de marketing durante el pico de mensajes?',
+            a: 'No es necesario pausarlas, pero sí priorizar la capacidad de respuesta a quien ya está escribiendo antes de enviar más campañas que generen aún más volumen entrante ese mismo día.',
+          },
+        ],
+      },
     ],
     sources: [],
   },
@@ -2186,6 +2995,23 @@ export const posts: BlogPost[] = [
       {
         type: 'p',
         text: 'La diferencia real no está en la ciudad, sino en si el negocio automatiza o no la parte repetitiva de su atención. Un negocio en una ciudad intermedia que responde rápido por WhatsApp compite en igualdad de condiciones —a veces con ventaja, por el trato personal— frente a competidores mucho más grandes en las capitales.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Los proveedores de chatbot atienden negocios fuera de las tres ciudades principales?',
+            a: 'Sí. Al ser una plataforma que opera en la nube, la ubicación del negocio no es una limitación técnica: un chatbot se configura y opera igual para un negocio en Bogotá que para uno en Sincelejo o Tuluá.',
+          },
+          {
+            q: '¿La logística de envío es un obstáculo para automatizar en ciudades más pequeñas?',
+            a: 'No para la parte de atención y toma de pedidos: el chatbot resuelve la conversación igual, independientemente de qué tan compleja sea después la logística de entrega, que sigue siendo un proceso aparte del negocio.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Hay incluso una ventaja poco discutida: en ciudades intermedias, donde la competencia digital todavía es menor que en las capitales, un negocio que automatiza bien su WhatsApp puede diferenciarse con más facilidad, porque son menos los competidores locales que ya lo están haciendo.',
       },
     ],
     sources: [],
@@ -2231,6 +3057,19 @@ export const posts: BlogPost[] = [
         type: 'callout',
         text: 'Cumplir la Ley 1581 no es un trámite adicional para "cuando el negocio crezca": es parte de operar un canal de atención serio desde el primer cliente que escribe.',
       },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Qué autoridad vigila el cumplimiento de la Ley 1581 en Colombia?',
+            a: 'La Superintendencia de Industria y Comercio (SIC) es la entidad encargada de vigilar el cumplimiento de la normativa de protección de datos personales y de recibir quejas de los titulares de esos datos.',
+          },
+          {
+            q: '¿Aplica la misma ley si mi chatbot lo administra un proveedor externo?',
+            a: 'Sí. El negocio sigue siendo responsable del tratamiento de los datos de sus clientes, aunque la operación técnica del chatbot esté a cargo de un tercero, por lo que conviene que el contrato con ese proveedor incluya compromisos claros de seguridad y confidencialidad.',
+          },
+        ],
+      },
     ],
     sources: [
       {
@@ -2273,6 +3112,23 @@ export const posts: BlogPost[] = [
       {
         type: 'callout',
         text: 'La ventaja competitiva del comercio de barrio siempre fue la cercanía con el cliente. La automatización bien usada no le quita eso: le da más tiempo para ejercerla.',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: '¿Un tendero sin conocimientos técnicos puede realmente operar un chatbot?',
+            a: 'Sí. La configuración técnica queda a cargo del proveedor; el tendero solo necesita definir su catálogo, precios y respuestas frecuentes, y revisar de vez en cuando cómo está funcionando, igual que revisaría cualquier otro aspecto del negocio.',
+          },
+          {
+            q: '¿Cuánto le cuesta a un negocio de barrio empezar a automatizar su WhatsApp?',
+            a: 'Los planes de entrada para negocios pequeños suelen tener un costo mensual comparable al de otros gastos operativos básicos, muy por debajo de lo que costaría contratar una persona adicional solo para responder mensajes.',
+          },
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Dentro de algunos años, probablemente ya no se hablará de "tenderos digitales" como una categoría aparte: será simplemente cómo opera cualquier negocio de barrio que quiera seguir siendo competitivo. Los que den ese paso primero no solo resuelven un problema operativo hoy; se acostumbran antes a un estándar de atención que, tarde o temprano, sus clientes van a esperar de todos modos.',
       },
     ],
     sources: [

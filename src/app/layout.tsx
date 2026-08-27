@@ -43,6 +43,9 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: siteUrl,
+    types: {
+      'application/rss+xml': `${siteUrl}/blog/rss.xml`,
+    },
   },
   openGraph: {
     type: "website",
@@ -52,14 +55,12 @@ export const metadata: Metadata = {
     title: "Wabot365 | Chatbot de WhatsApp para negocios en Colombia",
     description:
       "Crea tu chatbot de WhatsApp en 48 horas: responde clientes, toma pedidos y agenda citas 24/7, sin programar.",
-    images: [{ url: "/og-cover.png", width: 1200, height: 630, alt: "Wabot365 — chatbot de WhatsApp" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Wabot365 | Chatbot de WhatsApp para negocios en Colombia",
     description:
       "Crea tu chatbot de WhatsApp en 48 horas: responde clientes, toma pedidos y agenda citas 24/7, sin programar.",
-    images: ["/og-cover.png"],
   },
   robots: {
     index: true,

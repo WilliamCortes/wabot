@@ -10,7 +10,22 @@ Wabot365 responde clientes 24/7, toma pedidos, agenda citas y organiza la atenci
 - [Precios](https://www.wabot365.com/pricing.md): planes y precios en formato estructurado.
 - [Política de privacidad](https://www.wabot365.com/politica-privacidad): tratamiento de datos personales.
 
+## Blog
+
+Más de 50 artículos con guías, datos de la industria y casos de uso reales sobre chatbots de WhatsApp, organizados en seis categorías:
+
+- [Guías prácticas](https://www.wabot365.com/blog/categoria/guias): configuración, plantillas, catálogo y buenas prácticas de la WhatsApp Business Platform.
+- [Datos y estadísticas](https://www.wabot365.com/blog/categoria/datos): cifras oficiales de Meta, HubSpot, Zendesk, McKinsey y Salesforce sobre WhatsApp Business y atención al cliente.
+- [IA y atención al cliente](https://www.wabot365.com/blog/categoria/ia-atencion): chatbots, agentes de IA y automatización de atención.
+- [Casos de uso](https://www.wabot365.com/blog/categoria/casos-de-uso): implementaciones por tipo de negocio (restaurantes, salud, belleza, inmobiliarias, servicios).
+- [Comparativas](https://www.wabot365.com/blog/categoria/comparativas): WhatsApp vs. otros canales, chatbot propio vs. plantillas genéricas, app vs. API.
+- [Colombia](https://www.wabot365.com/blog/categoria/colombia): mercado colombiano de WhatsApp, comercio digital y protección de datos personales.
+
+Índice completo: [https://www.wabot365.com/sitemap.xml](https://www.wabot365.com/sitemap.xml)
+Feed RSS: [https://www.wabot365.com/blog/rss.xml](https://www.wabot365.com/blog/rss.xml)
+
 ## Contacto
 
 - Correo: soporte@wabot365.com
+- WhatsApp: +57 310 329 8346
 - País de operación: Colombia

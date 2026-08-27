@@ -3,6 +3,7 @@ import { posts } from '@/content/blog/posts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://www.wabot365.com';
+  const clusters = Array.from(new Set(posts.map((p) => p.cluster)));
 
   return [
     {
@@ -17,6 +18,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    ...clusters.map((cluster) => ({
+      url: `${base}/blog/categoria/${cluster}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
+    })),
     ...posts.map((post) => ({
       url: `${base}/blog/${post.slug}`,
       lastModified: new Date(post.updatedAt ?? post.publishedAt),
