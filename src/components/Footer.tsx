@@ -1,45 +1,51 @@
 import React from 'react';
+import { MessageCircle, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-brand-dark text-white py-12">
+    <footer id="contacto" className="bg-night text-white pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand */}
-          <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold text-brand-green mb-4">Wabot365</h3>
-            <p className="text-gray-300 mb-4 max-w-md">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+          <div className="col-span-1 md:col-span-2 space-y-6">
+            <div className="flex items-center gap-2.5">
+              <span className="flex h-9 w-9 items-center justify-center bubble-corner bg-whatsapp text-white">
+                <MessageCircle className="w-4 h-4" strokeWidth={2.5} />
+              </span>
+              <span className="text-xl font-display font-semibold tracking-tight">Wabot365</span>
+            </div>
+            <p className="text-white/70 text-lg max-w-md leading-relaxed">
               Chatbots de WhatsApp diseñados para microempresas colombianas: prácticos, económicos y con soporte local.
             </p>
-            <p className="text-sm text-gray-400">
-              Transformando la atención al cliente en Colombia 🇨🇴
-            </p>
+            <a
+              href="mailto:soporte@wabot365.com"
+              className="inline-flex items-center gap-2 text-white/90 hover:text-whatsapp-light transition-colors"
+            >
+              <Mail className="w-4 h-4" />
+              soporte@wabot365.com
+            </a>
           </div>
 
-          {/* Links */}
           <div>
-            <h4 className="font-semibold mb-4">Producto</h4>
-            <ul className="space-y-2 text-gray-300">
-              <li><a href="#features" className="hover:text-brand-green transition-colors">Características</a></li>
-              <li><a href="#pricing" className="hover:text-brand-green transition-colors">Planes</a></li>
-              <li><a href="#how-it-works" className="hover:text-brand-green transition-colors">Cómo funciona</a></li>
+            <h4 className="font-display font-semibold text-lg mb-6">Producto</h4>
+            <ul className="space-y-3 text-white/70 text-sm">
+              <li><a href="#features" className="hover:text-whatsapp-light transition-colors">Características</a></li>
+              <li><a href="#how-it-works" className="hover:text-whatsapp-light transition-colors">Cómo funciona</a></li>
+              <li><a href="#pricing" className="hover:text-whatsapp-light transition-colors">Planes</a></li>
+              <li><a href="#faq" className="hover:text-whatsapp-light transition-colors">Preguntas frecuentes</a></li>
             </ul>
           </div>
 
-          {/* Support */}
           <div>
-            <h4 className="font-semibold mb-4">Soporte</h4>
-            <ul className="space-y-2 text-gray-300">
-              <li><a href="#" className="hover:text-brand-green transition-colors">Centro de ayuda</a></li>
-              <li><a href="#" className="hover:text-brand-green transition-colors">WhatsApp soporte</a></li>
-              <li><a href="#" className="hover:text-brand-green transition-colors">Política de privacidad</a></li>
-              <li><a href="#" className="hover:text-brand-green transition-colors">Términos de servicio</a></li>
+            <h4 className="font-display font-semibold text-lg mb-6">Legal</h4>
+            <ul className="space-y-3 text-white/70 text-sm">
+              <li><a href="/politica-privacidad" className="hover:text-whatsapp-light transition-colors">Política de privacidad</a></li>
+              <li><a href="mailto:soporte@wabot365.com" className="hover:text-whatsapp-light transition-colors">Contacto</a></li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 Wabot365 — Hecho en Colombia 🇨🇴</p>
+        <div className="border-t border-white/10 pt-8 text-center md:text-left text-white/50 text-sm">
+          <p>&copy; {new Date().getFullYear()} Wabot365 — Hecho en Colombia 🇨🇴</p>
         </div>
       </div>
     </footer>

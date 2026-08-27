@@ -1,0 +1,16 @@
+# Wabot365
+
+> Wabot365 crea e implementa chatbots de WhatsApp para microempresas en Colombia. El chatbot corre sobre la API oficial de WhatsApp Business de Meta y se configura en 48 horas, sin necesidad de programar.
+
+Wabot365 responde clientes 24/7, toma pedidos, agenda citas y organiza la atención de WhatsApp de negocios pequeños y medianos (tiendas, restaurantes, servicios) en Colombia.
+
+## Páginas clave
+
+- [Inicio](https://www.wabot365.com/): características, cómo funciona, planes y preguntas frecuentes.
+- [Precios](https://www.wabot365.com/pricing.md): planes y precios en formato estructurado.
+- [Política de privacidad](https://www.wabot365.com/politica-privacidad): tratamiento de datos personales.
+
+## Contacto
+
+- Correo: soporte@wabot365.com
+- País de operación: Colombia

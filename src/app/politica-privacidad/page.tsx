@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Política de privacidad",
+  description: "Cómo Wabot365 recopila, usa y protege los datos personales de sus usuarios en Colombia.",
+  alternates: { canonical: "https://www.wabot365.com/politica-privacidad" },
+};
+
 export default function PoliticaPrivacidad() {
   return (
     <div className="container mx-auto px-4 py-8 max-w-4xl">
@@ -166,7 +174,7 @@ export default function PoliticaPrivacidad() {
         Wabot365 se reserva el derecho de actualizar esta Política de Privacidad periódicamente para reflejar cambios en nuestras prácticas, requisitos legales o mejoras del servicio.
       </p>
       <p className="mb-4">
-        Le notificaremos sobre cambios significativos mediante aviso en nuestra plataforma o por correo electrónico. La fecha de "Última actualización" al inicio de este documento indica cuándo se realizó la modificación más reciente.
+        Le notificaremos sobre cambios significativos mediante aviso en nuestra plataforma o por correo electrónico. La fecha de &ldquo;Última actualización&rdquo; al inicio de este documento indica cuándo se realizó la modificación más reciente.
       </p>
       <p className="mb-4">
         Le recomendamos revisar esta política periódicamente para mantenerse informado sobre cómo protegemos su información.
